@@ -1,4 +1,4 @@
-# Spistillata_OA_Shallow_and_Mesophotic
+# Inherent genetic and physiological traits conferring tolerance to ocean acidification in mesophotic corals
 Federica Scucchia1,2, Assaf Malik1, Hollie M. Putnam3, Tali Mass1
 1 Department of Marine Biology, Leon H, Charney school of Marine Sciences University of Haifa, Israel
 2 The Interuniversity Institute of Marine Sciences, Eilat 88103, Israel
