@@ -1,0 +1,19 @@
+* SNPs analysis pipline:
+
+# 1) Removal of alignment biases from the STAR-aligned reads, variant calling using the GATK HaplotypeCaller, and variant filtration and annotation:
+
+- gatk21_threads_RUN1.sh
+- gatpk21_pipeline.sh
+- gatpk21_vcf-processing.sh
+
+# 2) Identity By State (IBS) analysis:
+
+- joint-snps4_RUN1.R
+- bams-mos-depth_1.sh
+- design3.csv #metadata
+
+# 3)  Fst estimates:
+
+- Fst_statistics.R
+- SNPs_locus_table #a data frame with the genotype of the individuals -one locus per column
+
