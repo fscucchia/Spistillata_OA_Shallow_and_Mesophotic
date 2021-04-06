@@ -1,0 +1,5 @@
+# 5) functional enrichment analysis:
+
+goseq-foreground-background_4_RUN1.R (GOSeq tables settings)
+goseq_non-natively-supported-108_RUN1.sh (GOSeq stylophora enrichment based on stylophora KEGG , GO-Uniprot, GO-Trinotate databases)
+goseq_non-natively-supported-108.R (GOSeq call)
