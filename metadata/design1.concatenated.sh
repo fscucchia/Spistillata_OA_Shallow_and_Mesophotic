@@ -1,0 +1,79 @@
+function assert_ { rc=$?; if [[ $rc != 0 ]]; then echo 'exit !!!!'; exit $rc; fi }
+title[0]="A1"
+assert_
+for1[0]="/Home/concat/A1_f.fastq.gz"
+assert_
+title[1]="A4"
+assert_
+for1[1]="/Home/concat/A4_f.fastq.gz"
+assert_
+title[2]="A7"
+assert_
+for1[2]="/Home/concat/A7_f.fastq.gz"
+assert_
+title[3]="B1"
+assert_
+for1[3]="/Home/concat/B1_f.fastq.gz"
+assert_
+title[4]="B4"
+assert_
+for1[4]="/Home/concat/B4_f.fastq.gz"
+assert_
+title[5]="B7"
+assert_
+for1[5]="/Home/concat/B7_f.fastq.gz"
+assert_
+title[6]="C3"
+assert_
+for1[6]="/Home/concat/C3_f.fastq.gz"
+assert_
+title[7]="C4"
+assert_
+for1[7]="/Home/concat/C4_f.fastq.gz"
+assert_
+title[8]="C7"
+assert_
+for1[8]="/Home/concat/C7_f.fastq.gz"
+assert_
+title[9]="V2_1"
+assert_
+for1[9]="/Home/concat/V2_1_f.fastq.gz"
+assert_
+title[10]="VI_2_1"
+assert_
+for1[10]="/Home/concat/VI_2_1_f.fastq.gz"
+assert_
+title[11]="VI_2_4"
+assert_
+for1[11]="/Home/concat/VI_2_4_f.fastq.gz"
+assert_
+title[12]="VI_2_7"
+assert_
+for1[12]="/Home/concat/VI_2_7_f.fastq.gz"
+assert_
+title[13]="V_2_4"
+assert_
+for1[13]="/Home/concat/V_2_4_f.fastq.gz"
+assert_
+title[14]="V_2_7"
+assert_
+for1[14]="/Home/concat/V_2_7_f.fastq.gz"
+assert_
+title[15]="X_2_1"
+assert_
+for1[15]="/Home/concat/X_2_1_f.fastq.gz"
+assert_
+title[16]="X_2_4"
+assert_
+for1[16]="/Home/concat/X_2_4_f.fastq.gz"
+assert_
+title[17]="X_2_8"
+assert_
+for1[17]="/Home/concat/X_2_8_f.fastq.gz"
+assert_
+# for i in ${!title[@]}; do
+# 	echo $i
+# 	echo ${title[i]}
+# 	echo ${for1[i]}
+# 	echo '----------------'
+# done
