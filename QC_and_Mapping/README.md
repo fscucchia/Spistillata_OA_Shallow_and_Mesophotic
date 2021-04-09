@@ -1,13 +1,9 @@
-* commads order and scripts:
+### Concatenate files
+- `setting_1-SE.sh` that calls for `mapper_write-SE-or_PE-list_12.py` and uses the design `design/design1.csv`   x
+- `mapper_write-SE-or_PE-list_12.py` creates the script template `design1.sh`, that is needed to create `design1.concatenated.sh`       x
+- run using the command *bash* `design1.concatenated.sh` (create concatenated files)          x
 
-# 1) quality filtering: 
-
-fastq-filter_job_5.sh
-fastq-filter-SE_Conda_1_RUN1.sh
-multiqc-conda_1.sh
-
-# 2) stylophora and symbiont mapping:
-
-star-conda_3_RUN1.sh  (stylophora pistillata genome)
-star-conda_3_RUN2_smic.sh (symbiodinium microadriaticum genome)
-star-conda_3_RUN3_sgor.sh (cladocopium goreaui genome)
+### Quality filtering
+- `fastq-filter-SE_Conda_1_RUN1.sh` that uses the design file `design1.concatenated.sh`          x
+- run using the command *bash* `fastq-filter-SE_Conda_1_RUN1.sh` starting from argument 0, then 1,2,3 and 5 (step 5 is multiqc)            x
+- argument 2 of `fastq-filter-SE_Conda_1_RUN1.sh` calls for `fastq-filter_job_5.sh`(this script has all the cutadapt and trimmomatics commands) and removes the adapters using the file `adapters4d.fa` and performs quality filtering             x
