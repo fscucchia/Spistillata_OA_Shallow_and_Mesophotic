@@ -15,7 +15,7 @@ Total RNA was extracted from shallow and mesophotic _S. pistillata_ fragments co
 
 **[Raw sequence data - (NCBI SRA)](https://dataview.ncbi.nlm.nih.gov/object/PRJNA701170?reviewer=2sdh5ejluhr6na11607otr0c7i)** - Raw Illumina sequence data (fastq format) for the 6 coral colonies succesfully sequenced in this study (accession code [PRJNA701170)](https://dataview.ncbi.nlm.nih.gov/object/PRJNA701170?reviewer=2sdh5ejluhr6na11607otr0c7i).
 
-**[Quality filtering and mapping](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/tree/main/QC_and_Mapping)** - Details the processing and analyses of the _S. pistillata_ transcriptome sequencing data. RNA-Seq reads processing included adapter trimming using Cutadapt v1.15 (Martin, 2011) and quality filtering using Trimmomatic v0.3 (Bolger et al., 2014). Reads were further aligned to the host genome assembly (NCBI GCA_002571385.1) using STAR v2.5 (Dobin et al., 2013; Voolstra et al., 2017). 
+**[Quality filtering and mapping](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/tree/main/QC_and_Mapping)** - Details the processing and analyses of the _S. pistillata_ transcriptome sequencing data. RNA-Seq reads processing included adapter trimming using Cutadapt v1.15 [Martin, 2011](https://doi.org/10.14806/ej.17.1.200) and quality filtering using Trimmomatic v0.3 [Bolger et al., 2014](https://doi.org/10.1093/bioinformatics/btu170). Reads were further aligned to the host genome assembly [NCBI GCA_002571385.1](https://www.ncbi.nlm.nih.gov/assembly/GCF_002571385.1/) using STAR v2.5 ([Dobin et al., 2013](https://doi.org/10.1093/bioinformatics/bts635); [Voolstra et al., 2017](https://doi.org/10.1038/s41598-017-17484-x)). 
 
 **Species identification**
 
