@@ -1,7 +1,7 @@
 ### Concatenate files
-- [`setting_1-SE.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/QC_and_Mapping/setting_1-SE.sh) that calls for `mapper_write-SE-or_PE-list_12.py` and uses the design `design/design1.csv`   x
-- `mapper_write-SE-or_PE-list_12.py` creates the script template `design1.sh`, that is needed to create `design1.concatenated.sh`       x
-- run using the command *bash* `design1.concatenated.sh` (create concatenated files)          x
+- [`setting_1-SE.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/QC_and_Mapping/setting_1-SE.sh) that calls for [`mapper_write-SE-or_PE-list_12.py`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/QC_and_Mapping/mapper_write-SE-or-PE-list_12.py) and uses the design [`design/design1.csv`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/metadata/design1.csv).   
+- [`mapper_write-SE-or_PE-list_12.py`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/QC_and_Mapping/mapper_write-SE-or-PE-list_12.py) creates the script templates [`design1.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/metadata/design1.sh) and [`design1.concatenated.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/metadata/design1.concatenated.sh).       
+- [`design1.concatenated.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/metadata/design1.concatenated.sh) generates the concatenated files.          
 
 ### Quality filtering
 - `fastq-filter-SE_Conda_1_RUN1.sh` that uses the design file `design1.concatenated.sh`          x
