@@ -1,5 +1,5 @@
 ### Concatenate files
-- [`setting_1-SE.sh`](QC_and_Mapping/setting_1-SE.sh) that calls for `mapper_write-SE-or_PE-list_12.py` and uses the design `design/design1.csv`   x
+- [`setting_1-SE.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/QC_and_Mapping/setting_1-SE.sh) that calls for `mapper_write-SE-or_PE-list_12.py` and uses the design `design/design1.csv`   x
 - `mapper_write-SE-or_PE-list_12.py` creates the script template `design1.sh`, that is needed to create `design1.concatenated.sh`       x
 - run using the command *bash* `design1.concatenated.sh` (create concatenated files)          x
 
