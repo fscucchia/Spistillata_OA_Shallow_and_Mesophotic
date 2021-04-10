@@ -100,7 +100,7 @@ if [ ! -z ${CONDA+x} ]; then
 		done
 	elif [ $1 -eq 4 ]; then
 		python gene-info-from-gtf_1.py --gtf "$gtf" --gene_regexpr "$gtfGeneReg" --output_file "$gtf.gene-length.txt"
-	elif [ $1 -eq 5 ]; then
+	elif [ $1 -eq 5 ]; then # multiqc
 		mkdir -p "$outdir/multiqc"; assert_
 
 		sbatch --mem=128000 -N1 -n20 --ntasks-per-node=20 \
