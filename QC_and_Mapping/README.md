@@ -9,6 +9,6 @@
 
 ### Mapping
 - [`setting_1-SE_RUN2.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/QC_and_Mapping/setting_1-SE_RUN2.sh) uses the design [`mapping_STAR.csv`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/metadata/mapping_STAR.csv) to create [`mapping_STAR.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/metadata/mapping_STAR.sh).
-- [`star-conda_3_RUN1.sh`] uses the design [`mapping_STAR.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/metadata/mapping_STAR.sh) to map the filtered reads to _S. pistillata_ genome.
+- [`star-conda_3_RUN1.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/QC_and_Mapping/star-conda_3_RUN1.sh) uses the design [`mapping_STAR.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/metadata/mapping_STAR.sh) to map the filtered reads to _S. pistillata_ genome.
 
 
