@@ -5,7 +5,7 @@
 #deep pH 7.8 vs shallow pH 7.8
 #deep pH 7.6 vs shallow pH 7.6
 
-RData1='/Home/STAR-spis-DE1/spis1_params.RData'
+RData1='/Home/STAR-spis-DE1/spis1_params.RData' #output of `deseq_setRawCountsTable_2_RUN1.R`(https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/DE/deseq_setRawCountsTable_2_RUN1.R)
 load(RData1)
 
 file_filter_in= ''
