@@ -2,7 +2,7 @@
 files=c(
 '/Home/STAR-spis-DE1/shallow/shallow.merged-DE-FPM.lite.txt'
 #'/Home/STAR-spis-DE1/mesophotic/mesophotic.merged-DE-FPM.lite.txt'
-)
+) #DESeq output tables
 
 files_description=c('comparison') #,'comparison')
 
