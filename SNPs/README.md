@@ -1,5 +1,5 @@
 ### Processing of STAR-aligned reads 
-- [`gatk21_threads_RUN1.sh`]() calls for [`gatpk21_pipeline.sh`]() and [`gatpk21_vcf-processing.sh`]() to remove alignment biases from the STAR-aligned reads, and to perform variant calling (using the GATK HaplotypeCaller), variant filtration and annotation.
+- [`gatk21_threads_RUN1.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/SNPs/gatk21_threads_RUN1.sh) calls for [`gatpk21_pipeline.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/SNPs/gatk21_pipeline.sh) and [`gatpk21_vcf-processing.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/SNPs/gatk21_vcf-processing.sh) to remove alignment biases from the STAR-aligned reads, and to perform variant calling (using the GATK HaplotypeCaller), variant filtration and annotation.
 
 ### Identity By State (IBS) analysis:
 
