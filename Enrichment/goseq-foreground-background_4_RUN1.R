@@ -3,7 +3,7 @@ files=c(
 'Home/STAR-spis-DE1/deep-shallow/deep7.6-shallow7.6.merged-DE-FPM.lite.txt',
 'Home/STAR-spis-DE1/deep-shallow/deep7.8-shallow7.8.merged-DE-FPM.lite.txt',
 'Home/STAR-spis-DE1/deep-shallow/deep8.2-shallow8.2.merged-DE-FPM.lite.txt'
-)
+) #DESeq output tables
 
 files_description=c('comparison','comparison','comparison')
 
