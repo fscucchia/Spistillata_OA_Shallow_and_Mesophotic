@@ -63,7 +63,7 @@ if [ $1 -le 4 ]; then
 		#break
 		#fi
 	done
-elif [ $1 -eq 5 ]; then
+elif [ $1 -eq 5 ]; then  #multiqc
 	echo '5'
 	sbatch -N1 -n1 --ntasks-per-node=1 --workdir=$dir2/fastqc -o "$dir2/fastqc/multiqc.out" -e  "$dir2/fastqc/multiqc.err" \
 		-p hive1d,hive7d,ckpthp1d,ckpthp7d,ckpthp31d,preempt1d,preempt7d,preempt31d,ckptdell1d,ckptdell7d,ckptdell31d,hiveunlim,queen,ckptqueen \
