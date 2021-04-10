@@ -27,6 +27,6 @@ Total RNA was extracted from shallow and mesophotic _S. pistillata_ fragments co
 
 ### Functional enrichment
 
-**[Coral host functional enrichment](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/tree/main/Enrichment)** - Genes biological terms were assigned based on _S. pistillata_ [Uniprot](https://www.uniprot.org/), [KEGG](https://www.kegg.jp/) and Trinotate annotations ([Bryant et al., 2017](https://doi.org/10.1016/j.celrep.2016.12.063)). Enrichment analysis was conducted in Bioconductor GOSeq v1.42.0, as described previously ([Malik et al., 2020](https://doi.org/10.1016/j.actbio.2020.01.010). 
+**[Coral host functional enrichment](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/tree/main/Enrichment)** - Genes biological terms were assigned based on _S. pistillata_ [Uniprot](https://www.uniprot.org/), [KEGG](https://www.kegg.jp/) and Trinotate annotations ([Bryant et al., 2017](https://doi.org/10.1016/j.celrep.2016.12.063)). Enrichment analysis was conducted in Bioconductor GOSeq v1.42.0, as described previously ([Malik et al., 2020](https://doi.org/10.1016/j.actbio.2020.01.010)). 
 
 ### SNPs characterization
