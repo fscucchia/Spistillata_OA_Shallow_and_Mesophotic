@@ -1,4 +1,3 @@
 ### Species identification
-- run using the command *bash* `diamond2_RUN2.sh` (uses the script parameters `mapping_STAR.sh`) starting from argument 1, then 2       x
-- run on selected proteomes (see methods in manuscript)               x
-- `run1-diamond-heatmap.R` for heatmap with species count (proportion of mapped reads), this uses the design `design2.csv`       x
+- [`diamond2_RUN2.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/Species_identification/diamond2_RUN2.sh) uses the script parameters [`mapping_STAR.sh`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/metadata/mapping_STAR.sh) to blast the filtered reads on selected proteomes.
+- [`run1-diamond-heatmap.R`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/Species_identification/run1-diamond-heatmap.R) creates heatmaps with species count (count of mapped reads and proportion of mapped reads), using the design [`design2.csv`](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/metadata/design2.csv).
