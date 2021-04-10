@@ -23,10 +23,10 @@ Total RNA was extracted from shallow and mesophotic _S. pistillata_ fragments co
 
 ### Differential expression
 
-**[Coral host differential expression](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/tree/main/DE)** - DE analysis was conducted using Bioconductor DEseq2 v1.30.1 (Love et al., 2014) by a) analyzing mesophotic and shallow samples separately, considering a single factor (pH) and three levels (8.2, 7.8, 7.6), and b) analyzing samples from each pH separately, considering a single factor (depth) and two levels (shallow, mesophotic).
+**[Coral host differential expression](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/tree/main/DE)** - DE analysis was conducted using Bioconductor DEseq2 v1.30.1 ([Love et al., 2014](https://doi.org/10.1186/s13059-014-0550-8)) by a) analyzing mesophotic and shallow samples separately, considering a single factor (pH) and three levels (8.2, 7.8, 7.6), and b) analyzing samples from each pH separately, considering a single factor (depth) and two levels (shallow, mesophotic).
 
 ### Functional enrichment
 
-**[Coral host functional enrichment ](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/tree/main/Enrichment)** - Genes biological terms were assigned based on Uniprot S. pistillata (https://www.uniprot.org/), KEGG S. pistillata (https://www.kegg.jp/) and S. pistillata Trinotate annotations (Bryant et al., 2017). Enrichment analysis was conducted in Bioconductor GOSeq v1.42.0, as described previously (Malik et al., 2020; Scucchia et al., in review). 
+**[Coral host functional enrichment](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/tree/main/Enrichment)** - Genes biological terms were assigned based on _S. pistillata_ [Uniprot](https://www.uniprot.org/), [KEGG](https://www.kegg.jp/) and Trinotate annotations ([Bryant et al., 2017](https://doi.org/10.1016/j.celrep.2016.12.063)). Enrichment analysis was conducted in Bioconductor GOSeq v1.42.0, as described previously ([Malik et al., 2020](https://doi.org/10.1016/j.actbio.2020.01.010). 
 
 ### SNPs characterization
