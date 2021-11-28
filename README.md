@@ -1,10 +1,10 @@
 # Genetic and physiological traits conferring tolerance to ocean acidification in mesophotic corals  [![DOI:10.1111/gcb.15812](http://img.shields.io/badge/DOI-10.1111/gcb.15812-33C4FF.svg)](https://doi.org/10.1111/gcb.15812)
-Federica Scucchia<sup>1,2</sup>, Assaf Malik1, Hollie M. Putnam3, Tali Mass1,4
+Federica Scucchia<sup>1,2</sup>, Assaf Malik<sup>1</sup>, Hollie M. Putnam<sup>3</sup>, Tali Mass<sup>1,4</sup>
 
-1 Department of Marine Biology, Leon H. Charney school of Marine Sciences, University of Haifa, Haifa, 3498838, Israel                                                                               
-2 The Interuniversity Institute of Marine Sciences, Eilat 88103, Israel                                                                                                             
-3 Department of Biological Sciences, University of Rhode Island, Kingston, RI02881, United States of America                                                                      
-4 Morris Kahn Marine Research Station, The Leon H. Charney School of Marine Sciences, University of Haifa, Sdot Yam, Israel
+<sup>1</sup> Department of Marine Biology, Leon H. Charney school of Marine Sciences, University of Haifa, Haifa, 3498838, Israel                                                                               
+<sup>2</sup> The Interuniversity Institute of Marine Sciences, Eilat 88103, Israel                                                                                                             
+<sup>3</sup> Department of Biological Sciences, University of Rhode Island, Kingston, RI02881, United States of America                                                                      
+<sup>4</sup> Morris Kahn Marine Research Station, The Leon H. Charney School of Marine Sciences, University of Haifa, Sdot Yam, Israel
 
 ![pic](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/blob/main/media/Shallow_and_Mesophotic_pictures.jpg?raw=true)
 
