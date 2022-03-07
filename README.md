@@ -20,7 +20,7 @@ Total RNA was extracted from shallow and mesophotic _S. pistillata_ fragments co
 
 ### Species identification
 
-**[Coral host and symbiont species identification](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/tree/main/Species_identification)** - High quality reads were blasted using Diamond v2.0.7 ([Buchfink et al., 2015](https://doi.org/10.1038/nmeth.3176)) against the [NCBI](https://www.ncbi.nlm.nih.gov/) and [Reefgenomics](http://reefgenomics.org/) genome-based proteomes databases of Symbiodiniaceae species _Symbiodinium microadraticum_, _Cladocopium goreaui_, and _Fugacium kawagutii_ (formerly _Symbiodinium_ spp. clades A, C1, and F, respectively ([LaJeunesse et al., 2018](https://doi.org/10.1016/j.cub.2018.07.008))), as well as to the databases of Cnidaria, selected stramenopiles/alveolates/Rhizaria and Metazoa.
+**[Coral host and symbiont species identification](https://github.com/fscucchia/Spistillata_OA_Shallow_and_Mesophotic/tree/main/Species_identification)** - High quality reads were blasted using Diamond v2.0.7 ([Buchfink et al., 2015](https://www.nature.com/articles/nmeth.3176)) against the [NCBI](https://www.ncbi.nlm.nih.gov/) and [Reefgenomics](http://reefgenomics.org/) genome-based proteomes databases of Symbiodiniaceae species _Symbiodinium microadraticum_, _Cladocopium goreaui_, and _Fugacium kawagutii_ (formerly _Symbiodinium_ spp. clades A, C1, and F, respectively ([LaJeunesse et al., 2018](https://doi.org/10.1016/j.cub.2018.07.008))), as well as to the databases of Cnidaria, selected stramenopiles/alveolates/Rhizaria and Metazoa.
 
 ### Differential expression
 
